@@ -2,6 +2,7 @@ import { component$, useStylesScoped$, useStore, useClientEffect$, useContextPro
 import { MyContext } from '~/root';
 import { QwikLogo } from '../icons/qwik';
 import Modal from '../modal/modal';
+import CART from '../../../public/cart-shopping-solid.svg'
 
 export default component$(() => {
   const store = useStore({
